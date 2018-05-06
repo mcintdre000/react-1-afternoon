@@ -31,7 +31,7 @@ export default class FilterObject extends Component {
            if(arr[i].hasOwnProperty([key])) 
            { filteredArray.push(arr[i])}
         }
-        this.setState({filteredArray: filteredArray}) 
+        this.setState({ filteredArray: filteredArray }) 
     }
 
     render(){
